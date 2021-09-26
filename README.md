@@ -3,4 +3,4 @@
 
 |challenge|challenge-link|
 |----------|-----------|
-|reverse-array|[reverse-array](https://github.com/FarahJamal/data-structures-and-algorithms-401/array-reverse)|
+|reverse-array|[reverse-array](https://github.com/FarahJamal/data-structures-and-algorithms-401/tree/main/array-reverse)|
