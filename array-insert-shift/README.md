@@ -4,9 +4,10 @@
 
 
 * #### white board process
-
+[png](https://i.ibb.co/zZXfV59/Whiteboard-1.png)
 ![](https://i.ibb.co/zZXfV59/Whiteboard-1.png)
 
 
 * #### stretch goal process
+* [png](https://i.ibb.co/ykdDw20/stretch.png)
   ![](https://i.ibb.co/ykdDw20/stretch.png)
