@@ -3,7 +3,7 @@ import java.util.Objects;
 
 public class LinkedList {
 
-    private Node head;
+     Node head;
     private int size = 0;
 
     public int size() {
