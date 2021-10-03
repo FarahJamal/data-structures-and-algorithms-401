@@ -14,3 +14,17 @@ API
 + Method - insert - takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance
 + Method - includes - takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value som+ewhere within the list
 + Method - toString - takes in no arguments and returns a string representing all the values in the Linked List, formatted as: "{ a } -> { b } -> { c } -> NULL"
+
+
+# class 06
+Challenge Summary
+This code challenge is about linked list insertions with three different methods. The three different mthods are .append(value), .insertBefore(value, newVal), and .insertAfter(value, newVal)
+
+Challenge Description
+Wrote three insertion methods for the linked list class that was set up om code challenge 5. The three methods being used are:
+
+.append(value) which adds a new node with the given value to the end of the list
+.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+Approach & Efficiency
+Collaborated with Edward Hou and James Mansour for the white board and code challenge. First we drew out the white board how we were going to use these methods, and wrote out what each one was going to do and how it will work. The Big O space/time for this challenge was O(1) for the append method, space: O(1) and time: O(n) for insertBefore method, and space: O(1) and time: O(n) for for insertAfter method.

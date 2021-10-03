@@ -2,8 +2,9 @@ package linked.list;
 
 public class Node {
 
-    private String data; // the data
-    private Node next;   // the reference
+     String data; // the data
+     Node next;   // the reference
+    Node start;
 
 
     public Node(String data) {
