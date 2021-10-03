@@ -28,3 +28,24 @@ Wrote three insertion methods for the linked list class that was set up om code 
 .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 Approach & Efficiency
 Collaborated with Edward Hou and James Mansour for the white board and code challenge. First we drew out the white board how we were going to use these methods, and wrote out what each one was going to do and how it will work. The Big O space/time for this challenge was O(1) for the append method, space: O(1) and time: O(n) for insertBefore method, and space: O(1) and time: O(n) for for insertAfter method.
+
+# insert before whiteboard:-
+![](https://i.ibb.co/DGsnhTM/Whiteboard-6.png)
+
+# append whiteboard:-
+![](https://i.ibb.co/frhpxTZ/Whiteboard-4.png)
+
+# insert after whiteboard:-
+![](https://i.ibb.co/xC0x5LC/Whiteboard-5.png)
+
+
+- [X] Top-level README “Table of Contents” is updated
+- [X] README for this challenge is complete
+  - [X] Summary, Description, Approach & Efficiency, Solution
+  - [X] Picture of whiteboard
+  - [X] Link to code
+- [X] Feature tasks for this challenge are completed
+- [X] Unit tests written and passing
+  - [X] “Happy Path” - Expected outcome
+  - [X] Expected failure
+  - [X] Edge Case (if applicable/obvious)
