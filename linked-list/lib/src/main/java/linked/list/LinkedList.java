@@ -11,26 +11,19 @@ public class LinkedList {
         return size;
     }
 
+
+
     public void insert(String value) {
-
-        Node newNode = new Node(value);
-
-        if (size == 0) {
+        if (head == null) {
+            head = new Node(value);
+            size++;
+        } else {
+            Node newNode = new Node(value);
+            newNode.setNext(head);
             head = newNode;
+            size++;
         }
-        else {
-
-            Node current = head;
-            while(current.getNext() != null){
-                current = current.getNext();
-            }
-            current.setNext(newNode);
-
-        }
-        size++;
-
     }
-
     public boolean includes(String value) {
 
         if(size != 0){
