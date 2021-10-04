@@ -51,7 +51,7 @@ Approach & Efficiency
 
 
 # class 07
--Big O{ insert: space => O(1), time => O(1) includes: space => O(1), time => O(n) append: space => O(1), time => O(n) insertBefore : space => O(1), time => O(n) insertAfter: space => O(1), time => O(n) delete: space => O(1), time => O(n) kthFromEnd: space => O(1), time => O(n) toString: space => O(1), time => O(n) }
+-Big O{ insert: space => O(1), time => O(1) includes: space => O(1), time => O(n) append: space => O(1), time => O(n) insertBefore : space => O(1), time => O(n) insertAfter: space => O(1), time => O(n) delete: space => O(1), time => O(n) kthFromEnd: space => O(1), time => O(n) toString: space => O(1), time => O(n)}
 
 
 
