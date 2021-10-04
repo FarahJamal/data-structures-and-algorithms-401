@@ -153,6 +153,24 @@ public void insertAfter(String ref,String data){
 
         return deletedNode;
     }
+    public String kthFromEnd(int k){
+        if(size == 0)
+            return "The list is empty";
+        if(k > size - 1 || k < 0)
+            return ("error in list");
+        else{
+            int numOfSteps = size - 1 - k;
+            int counter = 0;
+            Node current = head;
+
+            while(counter < numOfSteps) {
+                current = current.getNext();
+                counter++;
+            }
+
+            return current.getData();
+        }
+    }
     @Override
     public String toString() {
         StringBuilder stringPrint = new StringBuilder();

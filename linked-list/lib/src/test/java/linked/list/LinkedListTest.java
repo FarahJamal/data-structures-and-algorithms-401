@@ -127,4 +127,17 @@ class LinkedListTest {
         String expected = "{ s } -> { n } -> { a } -> { p } -> { e } -> { <3 } -> NULL";
         assertEquals(expected, MyTest.toString());
     }
+    @Test
+    void kthFromEndWorkingFine() {
+        LinkedList MyTest = new LinkedList();
+        MyTest.insert("s");
+        MyTest.insert("n");
+        MyTest.insert("a");
+        MyTest.insert("p");
+        MyTest.insert("e");
+        MyTest.insert("<3");
+
+        String expected = "a";
+        assertEquals(expected, MyTest.kthFromEnd(2));
+    }
 }

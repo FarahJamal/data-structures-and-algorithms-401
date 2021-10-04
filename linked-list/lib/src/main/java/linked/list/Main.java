@@ -15,14 +15,19 @@ public class Main {
         linkedList.insert("type");
         linkedList.insert("of");
         linkedList.insert("learning");
-        linkedList.append("append test");
-        linkedList.insertBefore("love","don't");
-        linkedList.insertAfter("learning","and");
-        linkedList.remove(2);
-        System.out.println(linkedList.size());
-        System.out.println(linkedList.includes("this"));
-
         System.out.println(linkedList);
+        System.out.println(linkedList.kthFromEnd(3)
+        );
+        //linkedList.append("append test");
+        //linkedList.insertBefore("love","don't");
+        //linkedList.insertAfter("learning","and");
+        //linkedList.remove(2);
+        //linkedList.kthEnd(1);
+
+//        System.out.println(linkedList.size());
+//        System.out.println(linkedList.includes("this"));
+//
+//        System.out.println(linkedList);
 
     }
 
