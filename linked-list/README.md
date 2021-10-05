@@ -70,3 +70,17 @@ Approach & Efficiency
   - [X] Edge Case (if applicable/obvious)
 
 
+# class 08
+#  whiteboard:-
+![](https://i.ibb.co/PMJwwY3/Whiteboard-3.png)
+
+- [X] Top-level README “Table of Contents” is updated
+- [X] README for this challenge is complete
+  - [X] Summary, Description, Approach & Efficiency, Solution
+  - [X] Picture of whiteboard
+  - [X] Link to code
+- [X] Feature tasks for this challenge are completed
+- [X] Unit tests written and passing
+  - [X] “Happy Path” - Expected outcome
+  - [ ] Expected failure
+  - [ ] Edge Case (if applicable/obvious)

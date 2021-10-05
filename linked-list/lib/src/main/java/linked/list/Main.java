@@ -9,15 +9,26 @@ public class Main {
 
         LinkedList linkedList = new LinkedList();
 
-        linkedList.insert("I");
-        linkedList.insert("love");
-        linkedList.insert("this");
-        linkedList.insert("type");
-        linkedList.insert("of");
-        linkedList.insert("learning");
-        System.out.println(linkedList);
-        System.out.println(linkedList.kthFromEnd(3)
-        );
+        linkedList.insert("hello");
+        linkedList.insert("Name");
+        linkedList.insert("Farah");
+
+        //System.out.println(linkedList);
+        //System.out.println(linkedList.kthFromEnd(3)
+        LinkedList linkedList2 = new LinkedList();
+//[hello,Name,Farah]
+//[My,is, Jamal]
+//[hello my name is  farah jamal]
+        linkedList2.insert("My");
+        linkedList2.insert("is");
+        linkedList2.insert("Jamal");
+
+
+        LinkedList zipperList=new LinkedList();
+        System.out.println(zipperList.zip(linkedList,linkedList2)+"\n");
+        //System.out.println(linkedList);
+        //System.out.println(linkedList.kthFromEnd(3)
+
         //linkedList.append("append test");
         //linkedList.insertBefore("love","don't");
         //linkedList.insertAfter("learning","and");

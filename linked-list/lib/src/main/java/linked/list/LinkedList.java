@@ -171,6 +171,29 @@ public void insertAfter(String ref,String data){
             return current.getData();
         }
     }
+    public String zip(LinkedList list1, LinkedList list2) {
+        LinkedList newList = new LinkedList();
+        Node first = list1.head;
+        Node second = list2.head;
+        while (first != null || second != null) {
+            if(second==null){
+                newList.insert(first.data);
+                first=first.next;
+            }
+            else if(first == null){
+                newList.insert(second.data);
+                second=second.next;
+            }
+            else{
+                newList.insert(second.data);
+                newList.insert(first.data);
+                first=first.next;
+                second=second.next;
+            }
+
+        }
+        return newList.toString();
+    }
     @Override
     public String toString() {
         StringBuilder stringPrint = new StringBuilder();
