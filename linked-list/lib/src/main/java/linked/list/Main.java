@@ -9,9 +9,10 @@ public class Main {
 
         LinkedList linkedList = new LinkedList();
 
-        linkedList.insert("hello");
-        linkedList.insert("Name");
-        linkedList.insert("Farah");
+        linkedList.insert("y");
+        linkedList.insert("y");
+        linkedList.insert("x");
+        linkedList.insert("y");
 
         //System.out.println(linkedList);
         //System.out.println(linkedList.kthFromEnd(3)
@@ -23,9 +24,9 @@ public class Main {
         linkedList2.insert("is");
         linkedList2.insert("Jamal");
 
-
-        LinkedList zipperList=new LinkedList();
-        System.out.println(zipperList.zip(linkedList,linkedList2)+"\n");
+linkedList.palindrome();
+        //LinkedList zipperList=new LinkedList();
+        //System.out.println(zipperList.zip(linkedList,linkedList2)+"\n");
         //System.out.println(linkedList);
         //System.out.println(linkedList.kthFromEnd(3)
 

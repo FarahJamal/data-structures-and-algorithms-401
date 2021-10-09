@@ -4,12 +4,8 @@ import java.util.Objects;
 public class LinkedList {
 
      Node head;
-     Node tail;
     private int size = 0;
 
-    public int size() {
-        return size;
-    }
 
 
 
@@ -194,6 +190,45 @@ public void insertAfter(String ref,String data){
         }
         return newList.toString();
     }
+    public void palindrome() {
+        Node current = head;
+        boolean flag = true;
+        int mid = (size % 2 == 0) ? (size / 2) : ((size + 1) / 2);
+        for (int i = 1; i < mid; i++) {
+            current = current.next;
+        }
+        Node current2 = current.next;
+        Node prev = null, next = null;
+        while (current2 != null) {
+            next = current2.next;
+            current2.next = prev;
+            prev = current2;
+            current2 = next;
+        }
+        while (head != null && prev != null) {
+            if (head.data != prev.data) {
+                flag = false;
+                break;
+            }
+
+            head = head.next;
+            prev = prev.next;
+        }
+        if (flag) {
+            System.out.println("TRUE");
+        } else {
+            System.out.println("FALSE");
+        }
+    }
+
+
+
+
+
+
+
+
+
     @Override
     public String toString() {
         StringBuilder stringPrint = new StringBuilder();
