@@ -16,9 +16,11 @@ top=null;
         Node<T> node=new Node<T>(data);
         if(!isEmpty()){
             node.setNext(top);
-            top=node;
         }
+        top=node;
+
     }
+
     public T pop() throws Exception {
         T data;
         if(isEmpty())
