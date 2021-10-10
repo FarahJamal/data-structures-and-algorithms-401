@@ -3,6 +3,7 @@
  */
 package stack.and.queue;
 
+import Pseudo.PseudoQueue;
 import Queue.Queue;
 import Stacks.Stack;
 import org.junit.jupiter.api.Test;
@@ -191,4 +192,47 @@ class LibraryTest {
             assertEquals("Can't peek empty Queue!", e.getMessage(), e.getMessage());
         }
     }
+    @Test
+    public void canEnqueue2() throws Exception {
+        PseudoQueue<Integer> queue = new PseudoQueue<>();
+
+        queue.enQueue(12);
+
+        try {
+            assertEquals(12, queue.deQueue(), "Method should return the first element value from the Queue");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void canMultiEnqueue2() throws Exception {
+        PseudoQueue<Integer> queue = new PseudoQueue<>();
+
+        queue.enQueue(14);
+        queue.enQueue(15);
+        queue.enQueue(1);
+
+        try {
+            assertEquals(14, queue.deQueue(), "Method should return the first element value from the Queue");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void canDequeue2() {
+        Queue<Integer> queue = new Queue<Integer>();
+
+        queue.enqueue(14);
+        queue.enqueue(15);
+        queue.enqueue(1);
+
+        try {
+            assertEquals(14, queue.dequeue(), "Method should return the first element value from the Queue after removing it from the queue");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }
