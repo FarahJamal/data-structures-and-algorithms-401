@@ -95,7 +95,7 @@ class LibraryTest {
         try {
             stack.pop();
         } catch (Exception e) {
-            assertEquals("Can't remove from empty Stack!", e.getMessage(), e.getMessage());
+            assertEquals("sorry, empty stack!", e.getMessage(), e.getMessage());
         }
     }
 
