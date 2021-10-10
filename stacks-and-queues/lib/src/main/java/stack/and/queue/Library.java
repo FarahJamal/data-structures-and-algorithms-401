@@ -3,13 +3,19 @@
  */
 package stack.and.queue;
 
+import Pseudo.PseudoQueue;
 import Queue.Queue;
 import Stacks.Stack;
 
 public class Library {
     public static void main(String[] args) throws Exception {
+
         queueDemo();
-        stackDemo();
+       stackDemo();
+
+
+        pseudoQueueDemo();
+
     }
 
     public static void queueDemo() throws Exception {
@@ -48,5 +54,16 @@ public class Library {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+    }
+
+    public static void pseudoQueueDemo() throws Exception {
+        PseudoQueue pseudoQueue=new PseudoQueue();
+        pseudoQueue.enQueue("F");
+        pseudoQueue.enQueue(2);
+        pseudoQueue.enQueue(3);
+
+        System.out.println(pseudoQueue.deQueue());
+        System.out.println(pseudoQueue.deQueue());
+        System.out.println(pseudoQueue.deQueue());
     }
 }
