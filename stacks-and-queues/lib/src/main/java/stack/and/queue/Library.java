@@ -3,19 +3,24 @@
  */
 package stack.and.queue;
 
+import Animals.Cats;
+import Animals.Dogs;
+import Animals.Many;
 import Pseudo.PseudoQueue;
 import Queue.Queue;
 import Stacks.Stack;
+import Queue.AnimalShelter;
+import org.checkerframework.checker.units.qual.A;
 
 public class Library {
     public static void main(String[] args) throws Exception {
 
-        queueDemo();
-       stackDemo();
+        //queueDemo();
+       //stackDemo();
 
 
-        pseudoQueueDemo();
-
+        //pseudoQueueDemo();
+animalShelterDemo();
     }
 
     public static void queueDemo() throws Exception {
@@ -65,5 +70,43 @@ public class Library {
         System.out.println(pseudoQueue.deQueue());
         System.out.println(pseudoQueue.deQueue());
         System.out.println(pseudoQueue.deQueue());
+    }
+    public static void animalShelterDemo()throws Exception{
+        AnimalShelter animalShelter=new AnimalShelter();
+        Cats cat1=new Cats("shemsh");
+        Cats cat2=new Cats("kitkit");
+
+
+        Dogs dog1=new Dogs("Rocky");
+        Dogs dog2=new Dogs("MILO");
+
+        Many duck1=new Many("daffy");
+        Many duck2=new Many("Quacky");
+
+        animalShelter.enQueue(cat1);
+        animalShelter.enQueue(cat2);
+        animalShelter.enQueue(dog1);
+        animalShelter.enQueue(dog2);
+animalShelter.enQueue(duck1);
+animalShelter.enQueue(duck2);
+        System.out.println(animalShelter.deQueue("dog"));
+        System.out.println(animalShelter.deQueue("cat"));
+                System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("rubberDuck"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("cat"));
+        System.out.println(animalShelter.deQueue("cat"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("cat"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("Fox"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("dog"));
+        System.out.println(animalShelter.deQueue("dog"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("dog"));
+        System.out.println("*******************************************");
+        System.out.println(animalShelter.deQueue("horse"));
+
     }
 }
