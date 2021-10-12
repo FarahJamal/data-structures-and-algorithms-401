@@ -10,6 +10,7 @@ import Pseudo.PseudoQueue;
 import Queue.Queue;
 import Stacks.Stack;
 import Queue.AnimalShelter;
+import Stacks.Validate;
 import org.checkerframework.checker.units.qual.A;
 
 public class Library {
@@ -20,9 +21,13 @@ public class Library {
 
 
         //pseudoQueueDemo();
-animalShelterDemo();
+//animalShelterDemo();
+        validateDemo();
     }
-
+public static void validateDemo() throws Exception{
+    Validate validate=new Validate();
+    System.out.println(validate.validateBrackets("([}){}{)"));
+}
     public static void queueDemo() throws Exception {
         Queue queue = new Queue();
 

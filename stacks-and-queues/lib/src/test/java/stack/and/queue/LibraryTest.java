@@ -10,6 +10,7 @@ import Pseudo.PseudoQueue;
 import Queue.*;
 import Stacks.Stack;
 
+import Stacks.Validate;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -327,5 +328,16 @@ class LibraryTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void canValidate(){
+        Validate validate=new Validate();
+        try {
+            assertEquals(true,validate.validateBrackets("[[[]]]{}()"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
 
 }
