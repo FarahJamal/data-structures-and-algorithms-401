@@ -38,3 +38,30 @@ Create a class called AnimalShelter which holds only dogs and cats.
             Return: either a dog or a cat, based on preference.
                 If pref is not "dog" or "cat" then return null.
 
+
+# stack-and-queue
+# Challenge Summary
+Multi-bracket Validation.
+
+## Whiteboard Process
+![](https://i.ibb.co/fHX4BJV/Whiteboard-7.png)
+## Approach & Efficiency
+
+
+    Write a function called validate brackets
+    Arguments: string
+    Return: boolean
+        representing whether or not the brackets in the string are balanced
+
+There are 3 types of brackets:
+
+    Round Brackets : ()
+    Square Brackets : []
+    Curly Brackets : {}
+
+time ==>O(n)
+space ==> O(n)
+
+
+
+
