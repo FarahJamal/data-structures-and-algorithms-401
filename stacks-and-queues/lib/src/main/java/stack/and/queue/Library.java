@@ -7,7 +7,7 @@ import Animals.Cats;
 import Animals.Dogs;
 import Animals.Many;
 import Pseudo.PseudoQueue;
-import Queue.Queue;
+import Queue.*;
 import Stacks.Stack;
 import Queue.AnimalShelter;
 import Stacks.Validate;
@@ -22,7 +22,13 @@ public class Library {
 
         //pseudoQueueDemo();
 //animalShelterDemo();
-        validateDemo();
+        //validateDemo();
+    duckDuckGoose();
+    }
+    public static void duckDuckGoose() throws  Exception{
+        DuckDuckGoose duckDuckGoose=new DuckDuckGoose();
+
+        System.out.println(duckDuckGoose.duckDuckGoose(new String []{"A","B","C","D","E"},2));
     }
 public static void validateDemo() throws Exception{
     Validate validate=new Validate();
