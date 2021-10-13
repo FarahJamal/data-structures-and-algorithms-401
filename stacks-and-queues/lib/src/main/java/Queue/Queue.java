@@ -6,9 +6,10 @@ public class Queue<T> {
 
     private Node<T> front;
     private Node<T> back;
-
+    private int count;
     public Queue() {
         front = back = null;
+        count = 0;
     }
 
     public void enqueue(T data) {
@@ -18,7 +19,9 @@ public class Queue<T> {
         else {
             back.setNext(node);
         }
+
         back = node;
+        count++;
     }
 
     public T dequeue() throws Exception {
@@ -29,6 +32,7 @@ public class Queue<T> {
             data = front.getData();
             front = front.getNext();
         }
+        count--;
         return data;
     }
 
@@ -42,5 +46,9 @@ public class Queue<T> {
     public boolean isEmpty() {
         return front == null;
     }
+    public int size(){
+        return count;
+    }
+
 
 }
