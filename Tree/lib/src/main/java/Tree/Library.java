@@ -3,14 +3,16 @@
  */
 package Tree;
 
-import BST.BST;
+
+import BSTPack.BST;
 
 public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+
         BST<Integer> bst = new BST();
         bst.Add(1);
         bst.Add(15);
@@ -18,6 +20,8 @@ public class Library {
         bst.Add(30);
         bst.Add(1998);
         bst.Add(2);
+
+        System.out.println(bst.max());
         System.out.println(bst.contains(55));
         System.out.println(bst.contains(4));
     }
