@@ -2,8 +2,9 @@ package BSTPack;
 
 import Node.Node;
 
-public class BST <F extends Comparable<F>>{
+import java.util.LinkedList;
 
+public class BST<F extends Comparable<F>>  {
     Node<F> top;
 
     public BST() {
@@ -77,4 +78,4 @@ public class BST <F extends Comparable<F>>{
             return bstRoot.getData();
     }
 
-}
+    }

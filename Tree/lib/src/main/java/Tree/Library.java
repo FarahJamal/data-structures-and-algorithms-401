@@ -5,6 +5,8 @@ package Tree;
 
 
 import BSTPack.BST;
+import BSTPack.BinaryTree;
+import Node.Node;
 
 public class Library {
     public boolean someLibraryMethod() {
@@ -12,17 +14,40 @@ public class Library {
     }
 
     public static void main(String[] args) throws Exception {
+//        BinaryTree tree = new BinaryTree();
 
-        BST<Integer> bst = new BST();
-        bst.Add(1);
-        bst.Add(15);
-        bst.Add(20);
-        bst.Add(30);
-        bst.Add(1998);
-        bst.Add(2);
+//        tree.root = new Node(1);
+//        tree.root.left = new Node(2);
+//        tree.root.right = new Node(3);
+//        tree.root.left.left = new Node(4);
+//        tree.root.left.right = new Node(5);
 
-        System.out.println(bst.max());
-        System.out.println(bst.contains(55));
-        System.out.println(bst.contains(4));
+//
+//        tree.root=new Node(2);
+//        tree.root.left=new Node(7);
+//        tree.root.right=new Node(5);
+//        tree.root.left.left=new Node(2);
+//        tree.root.left.right=new Node(6);
+//        tree.root.right.right=new Node(9);
+//        tree.root.left.right.left=new Node(5);
+//        tree.root.left.right.right=new Node(11);
+//tree.root.right.right.left=new Node(4);
+        BinaryTree secObj=new BinaryTree();
+
+        secObj.root = new Node(2);
+
+        secObj.root.left = new Node(7);
+        secObj.root.right = new Node(5);
+        secObj.root.left.right = new Node(6);
+        secObj.root.right.right = new Node(9);
+        secObj.root.right.right.left = new Node(4);
+        secObj.root.left.right.right = new Node(11);
+        secObj.root.left.right.left = new Node(5);
+
+        System.out.println("Level order traversal of binary tree is ");
+                secObj.printLevelOrder();
+
+
+
     }
 }

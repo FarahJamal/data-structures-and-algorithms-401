@@ -2,8 +2,8 @@ package Node;
 
 public class Node <F>{
     F data;
-    Node<F> left;
-    Node<F> right;
+    public Node<F> left;
+    public Node<F> right;
 
     public Node(F data) {
         this.data = data;
