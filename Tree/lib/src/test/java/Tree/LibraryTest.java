@@ -3,8 +3,9 @@
  */
 package Tree;
 
-import BST.BST;
+import BSTPack.BST;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
@@ -32,5 +33,19 @@ class LibraryTest {
         bst.Add(43);
 
         assertEquals(50, bst.getTop().getRight().getData(),"The Method should add to the lift and to the right sides");
-    } 
+    }
+    @Test
+    public void findMax(){
+        BST<Integer> test = new BST();
+
+        test.Add(1200);
+        test.Add(30);
+        test.Add(2514);
+
+        try {
+            assertEquals(2514, test.max(), "The method will return the max value");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

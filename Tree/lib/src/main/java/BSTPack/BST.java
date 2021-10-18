@@ -1,4 +1,4 @@
-package BST;
+package BSTPack;
 
 import Node.Node;
 
@@ -58,6 +58,23 @@ public class BST <F extends Comparable<F>>{
 
     public boolean isEmpty() {
         return top == null;
+    }
+
+    public F max() throws Exception{
+        if(isEmpty()){
+            System.out.println("empty tree");
+            throw new Exception("empty tree!");
+        }
+        else{
+            return findMaxHelper(top);
+
+        }
+    }
+    public F findMaxHelper(Node<F>bstRoot){
+        if(bstRoot.getRight() != null)
+            return findMaxHelper(bstRoot.getRight());
+        else
+            return bstRoot.getData();
     }
 
 }
