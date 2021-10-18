@@ -4,6 +4,8 @@
 package Tree;
 
 import BSTPack.BST;
+import BSTPack.BinaryTree;
+import Node.Node;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,6 +47,28 @@ class LibraryTest {
         try {
             assertEquals(2514, test.max(), "The method will return the max value");
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
+    public void bridthFirst(){
+        BinaryTree treeTest=new BinaryTree();
+
+
+        treeTest.root = new Node(2);
+
+        treeTest.root.left = new Node(7);
+        treeTest.root.right = new Node(5);
+        treeTest.root.left.right = new Node(6);
+        treeTest.root.right.right = new Node(9);
+        treeTest.root.right.right.left = new Node(4);
+        treeTest.root.left.right.right = new Node(11);
+        treeTest.root.left.right.left = new Node(5);
+
+        try{
+            assertEquals("Level order traversal of binary tree is \n" +
+                    "2 7 5 6 9 5 11 4 ",treeTest);
+        } catch (Exception e){
             e.printStackTrace();
         }
     }
