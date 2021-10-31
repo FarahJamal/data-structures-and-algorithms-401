@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a81f534-220e-429b-9958-09a43d518b91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/modules/lib/BST.lib.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/modules/lib/BST.lib.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/BSTPack/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/BSTPack/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/BSTPack/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/BSTPack/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/KTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/KTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/Node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/Node/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/Tree/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/Tree/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/main/java/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/main/java/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/lib/src/test/java/Tree/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/lib/src/test/java/Tree/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-binary-search/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../array-binary-search/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-insert-shift/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../array-insert-shift/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-reverse/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../array-reverse/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/linked-list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/linked-list.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/remote-targets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/remote-targets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linked/list/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linked/list/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linked/list/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linked/list/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linked/list/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/stacks-and-queues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/stacks-and-queues.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Cats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Dogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Many.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Animals/Many.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Node/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Pseudo/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Pseudo/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/DuckDuckGoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/DuckDuckGoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Stacks/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Stacks/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Stacks/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/Stacks/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/stack/and/queue/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/main/java/stack/and/queue/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/lib/src/test/java/stack/and/queue/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/lib/src/test/java/stack/and/queue/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacks-and-queues/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-and-queues/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20GtcCVgLe4QdQfoGDhuu6DXN8f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code401\code401\code-challenges\data-structures-and-algorithms-401\Insertion Sort" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Insertion.Sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InsertionSortArrayTest">
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Insertion.Sort.Library" />
+      <module name="Insertion_Sort.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Insertion.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Insertion.Sort.LibraryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.insertion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Insertion.Sort.LibraryTest.insertion&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InsertionSortArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Insertion_Sort.lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Insertion.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Insertion.Sort" />
+      <option name="MAIN_CLASS_NAME" value="Insertion.Sort.InsertionSortArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Insertion_Sort.lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Insertion.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Insertion.Sort" />
+      <option name="MAIN_CLASS_NAME" value="Insertion.Sort.insertTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InsertionSortArrayTest" />
+        <item itemvalue="JUnit.insertTest" />
+        <item itemvalue="Gradle.LibraryTest.insertion" />
+        <item itemvalue="Gradle.LibraryTest" />
+        <item itemvalue="Application.Library" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a81f534-220e-429b-9958-09a43d518b91" name="Changes" comment="" />
+      <created>1635682832310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635682832310</updated>
+      <workItem from="1635682833982" duration="3451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

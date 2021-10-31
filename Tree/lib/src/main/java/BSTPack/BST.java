@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 public class BST<F extends Comparable<F>>  {
     Node<F> top;
-
+public int counter =0;
     public BST() {
         top = null;
     }
@@ -60,6 +60,8 @@ public class BST<F extends Comparable<F>>  {
     public boolean isEmpty() {
         return top == null;
     }
+    /* Function to get the count of leaf nodes in a binary tree*/
+
 
     public F max() throws Exception{
         if(isEmpty()){

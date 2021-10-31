@@ -32,22 +32,40 @@ public class Library {
 //        tree.root.left.right.left=new Node(5);
 //        tree.root.left.right.right=new Node(11);
 //tree.root.right.right.left=new Node(4);
-        BinaryTree secObj=new BinaryTree();
-
-        secObj.root = new Node(2);
-
-        secObj.root.left = new Node(7);
-        secObj.root.right = new Node(5);
-        secObj.root.left.right = new Node(6);
-        secObj.root.right.right = new Node(9);
-        secObj.root.right.right.left = new Node(4);
-        secObj.root.left.right.right = new Node(11);
-        secObj.root.left.right.left = new Node(5);
-
-        System.out.println("Level order traversal of binary tree is ");
-                secObj.printLevelOrder();
-
+//        BinaryTree secObj=new BinaryTree();
+//
+//        secObj.root = new Node(2);
+//
+//        secObj.root.left = new Node(7);
+//        secObj.root.right = new Node(5);
+//        secObj.root.left.right = new Node(6);
+//        secObj.root.right.right = new Node(9);
+//        secObj.root.right.right.left = new Node(4);
+//        secObj.root.left.right.right = new Node(11);
+//        secObj.root.left.right.left = new Node(5);
+//
+//        System.out.println("Level order traversal of binary tree is ");
+//                secObj.printLevelOrder();
+        /* create a tree */
+        BinaryTree <String>tree = new BinaryTree();
+        tree.root = new Node("ok");
+        tree.root.left = new Node("hi");
+        tree.root.right = new Node("ok.jpg");
+        tree.root.left.left = new Node("ok.png");
+        tree.root.left.right = new Node("hi.pdf");
+        BinaryTree <String>tree2 = new BinaryTree();
+        tree2.root = new Node("ok");
+        tree2.root.left = new Node("hi");
+        tree2.root.right = new Node("ok.jpg");
+        tree2.root.left.left = new Node("ok.png");
+        tree2.root.left.right = new Node("hi.pdf");
+        /* get leaf count of the abve tree */
+       // System.out.println(tree.checkLeaves(tree,tree2));
+        //System.out.println(tree.getLeafCount());
+        //System.out.println(tree.checkLeaves(tree,tree2));
+        System.out.println(tree.printPreorder());
+    }
 
 
     }
-}
+
