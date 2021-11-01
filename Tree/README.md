@@ -16,9 +16,12 @@
 # lab -16
 # Challenge Summary
 
-Find the Maximum Value in a Binary Tree
+Find the Maximum Value in a Binary search Tree and Binary tree
 ## Whiteboard Process
 ![](https://i.ibb.co/7NRpc9F/Whiteboard-8.png)
+
+**BT**
+![](https://i.ibb.co/zZmXqYY/Whiteboard-12.png)
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 ### Big O
 - Space: O(1)

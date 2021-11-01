@@ -126,9 +126,9 @@ boolean fileFolder(BinaryTree<T>tree1, BinaryTree<T>tree2) {
         List<T> list = preOrder();
         if (list != null) {
             Integer max = 0;
-            for (T integer : list) {
-                if (integer.compareTo((T) max) > 0) {
-                    max = (Integer) integer;
+            for (T value : list) {
+                if (value.compareTo((T) max) > 0) {
+                    max = (Integer) value;
                 }
             }
             return max;
