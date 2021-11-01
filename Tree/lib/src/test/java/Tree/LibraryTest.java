@@ -50,6 +50,7 @@ class LibraryTest {
             e.printStackTrace();
         }
     }
+
     @Test
     public void bridthFirst(){
         BinaryTree treeTest=new BinaryTree();
