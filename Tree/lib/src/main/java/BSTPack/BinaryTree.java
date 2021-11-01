@@ -3,10 +3,12 @@ package BSTPack;
 
 import Node.Node;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class BinaryTree <T> {
+public class BinaryTree <T extends Comparable<T>> {
     public Node root;
     int counter=0;
     // Root of the Binary Tree
@@ -71,6 +73,30 @@ public class BinaryTree <T> {
         return (node.getData() + " ");
 
     }
+    public boolean isEmpty() {
+        return root == null;
+    }
+    public List<T> preOrder() {
+        if (isEmpty()) {
+            return null;
+        }
+        List<T> list = new ArrayList<>();
+        preOrderHelper(root, list);
+        return list;
+    }
+    private void preOrderHelper(Node<T> rootArg, List<T> list) {
+
+        list.add(rootArg.getData());
+
+        if (rootArg.getLeft() != null) {
+            preOrderHelper(rootArg.getLeft(), list);
+        }
+
+        if (rootArg.getRight() != null) {
+            preOrderHelper(rootArg.getRight(), list);
+        }
+    }
+
 //function for file/folder method
 boolean fileFolder(BinaryTree<T>tree1, BinaryTree<T>tree2) {
     String arTree1 = tree1.printPreorder();
@@ -95,6 +121,25 @@ boolean fileFolder(BinaryTree<T>tree1, BinaryTree<T>tree2) {
         return m.matches();
     }
 
+    // find Max for Binary Tree!
+    public int findMax() {
+        List<T> list = preOrder();
+        if (list != null) {
+            Integer max = 0;
+            for (T value : list) {
+                if (value.compareTo((T) max) > 0) {
+                    max = (Integer) value;
+                }
+            }
+            return max;
+        }
+else {
+            return 0;
+
+        }
+
+
+    }
     public int getLeafCount()
     {
         return getLeafCount(root);

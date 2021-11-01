@@ -5,6 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a81f534-220e-429b-9958-09a43d518b91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/Insertion/Sort/InsertionSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/Insertion/Sort/InsertionSortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/Insertion/Sort/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/Insertion/Sort/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/Insertion/Sort/InsertionSortArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/Insertion/Sort/InsertionSortArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/Insertion/Sort/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/Insertion/Sort/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Whiteboard(11).png" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/Whiteboard(11).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/lib/src/main/java/Insertion/Sort/InsertionSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/lib/src/main/java/Insertion/Sort/InsertionSortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/lib/src/main/java/Insertion/Sort/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/lib/src/main/java/Insertion/Sort/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/lib/src/test/java/Insertion/Sort/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/lib/src/test/java/Insertion/Sort/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/lib/src/test/java/Insertion/Sort/insertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/lib/src/test/java/Insertion/Sort/insertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.gitignore" afterDir="false" />
@@ -124,8 +158,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -244,7 +278,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635682832310</updated>
-      <workItem from="1635682833982" duration="3451000" />
+      <workItem from="1635682833982" duration="4322000" />
     </task>
     <servers />
   </component>
