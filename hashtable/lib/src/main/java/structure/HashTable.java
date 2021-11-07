@@ -2,8 +2,7 @@ package structure;
 
 import data.HashNode;
 
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.*;
 
 public class HashTable <F,J>{
 
@@ -193,13 +192,6 @@ public class HashTable <F,J>{
         return false;
     }
 
-    @Override
-    public String toString() {
-        return
-                "bucketArray=" + bucketArray
-               ;
-    }
-
     public int hash(String anything){
         String stringAnything = "" + anything;
         int hash = 0;
@@ -212,7 +204,54 @@ public class HashTable <F,J>{
         hash = hash % this.bucketArray.size();
         return hash;
     }
+/*********************************************************************************************************/
+public String  repeatedWord(String text){
+    String []allWords=text.split(" ");
+    int counter =0;
+    List<String>repeatedWords=new ArrayList<>();
+    Map<String,Integer>repeatedzwordsWithCounter=new HashMap<>();
+    for(int i=0;i<allWords.length;i++){
+        for (int j=0;j<i;j++){
+            if(allWords[i].equals(allWords[j].toLowerCase())){
 
 
+if(!repeatedWords.contains(allWords[i].toLowerCase())){
+    repeatedWords.add(allWords[i].toLowerCase());
+    }
 
+            }
+
+        }
+    }
+    for(int x=0;x<repeatedWords.size();x++){
+        counter=countOccurrences(text,repeatedWords.get(x));
+        repeatedzwordsWithCounter.put(repeatedWords.get(x),counter);
+
+    }
+//    System.out.println(repeatedzwordsWithCounter);
+    return repeatedzwordsWithCounter.toString();
+}
+    static int countOccurrences(String str, String word)
+    {
+        // split the string by spaces in a
+        String a[] = str.split(" ");
+
+        // search for pattern in a
+        int count = 0;
+        for (int i = 0; i < a.length; i++)
+        {
+            // if match found increase count
+            if (word.equals(a[i]))
+                count++;
+        }
+
+        return count;
+    }
+
+    @Override
+    public String toString() {
+        return "HashTable{" +
+                "bucketArray=" + bucketArray +
+                '}';
+    }
 }

@@ -14,18 +14,24 @@ public class Library {
 
     public static void main(String[] args) {
 
-        HashTable<String, Integer> characters = new HashTable<>();
-        characters.add("Severus Snap", 1);
-        characters.add("Farah", 700);
-        characters.add("Marah", 701);
-
-        characters.add("Voldemort", 2);
-        characters.add("Luna LoveGod", 3);
-        System.out.println(characters.contains("ju"));
-        System.out.println(characters.hash("Farah"));
-        System.out.println(characters.hash("Marah"));
-
-        System.out.println((characters.toString()));
-
+        HashTable<Integer,String> characters = new HashTable<>();
+//        characters.add("Severus Snap", 1);
+//        characters.add("Farah", 700);
+//        characters.add("Marah", 701);
+//
+//        characters.add("Voldemort", 2);
+//        characters.add("Luna LoveGod", 3);
+//        System.out.println(characters.contains("ju"));
+//        System.out.println(characters.hash("Farah"));
+//        System.out.println(characters.hash("Marah"));
+//String text="from hello from hello world string farah this is hello hello from me farah as farah dev ^^";
+//        System.out.println(characters.repeatedWord(text));
+        HashTable<Integer,String>  story = new HashTable<>();
+        story.add(1,"Once upon a time, there was a brave princess who...");
+        story.add(2,"It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only...");
+        story.add( 3,"It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York...");
+for(int i=0;i<story.getSize();i++){
+    System.out.println(story.repeatedWord(story.get(i+1)));
+}
     }
 }
