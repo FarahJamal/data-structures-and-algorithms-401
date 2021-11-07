@@ -35,3 +35,21 @@ First I look up about hashtables, so I can have a better understanding of how th
     - hash method - takes in an arbitrary key and returns an index in the collection.
     - toString method - strings the lines together
     - Node class - takes in a value and next
+
+## code-challenge 31
+# Challenge Summary
+<!-- Description of the challenge -->
+create function return repeated words inside String.
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![](repeated.jpg)
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+- Write a function called repeated word that finds the first word to occur more than once in a string
+- Arguments: string
+- Return: string
+
+## Solution
+<!-- Show how to run your code, and examples of it in action -->
+mentioned in whiteboard
