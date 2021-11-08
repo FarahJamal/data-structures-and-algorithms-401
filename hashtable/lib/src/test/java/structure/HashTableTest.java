@@ -1,5 +1,6 @@
 package structure;
 
+import data.Node;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -93,5 +94,30 @@ class HashTableTest {
 assertEquals("{all=2, before=2, going=2, in=2, was=11, direct=2, for=2, its=2, times,=2, epoch=2, had=2, it=9, we=4, us,=2, the=14, were=2, of=12, season=2, age=2}"
         ,story.repeatedWord(story.get(2)));
 
+    }
+
+    @Test
+    void sameValues(){
+        HashTable<Integer,Integer>hashTable=new HashTable<>();
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(2);
+        tree.root.left = new Node(7);
+        tree.root.right = new Node(5);
+        tree.root.left.right = new Node(6);
+        tree.root.left.right.left = new Node(1);
+        tree.root.left.right.right = new Node(11);
+        tree.root.right.right = new Node(9);
+        tree.root.right.right.left = new Node(4);
+
+        BinaryTree tree2 = new BinaryTree();
+        tree2.root = new Node(5);
+        tree2.root.left = new Node(7);
+        tree2.root.right = new Node(5);
+        tree2.root.left.right = new Node(6);
+        tree2.root.left.right.left = new Node(45);
+        tree2.root.left.right.right = new Node(30);
+        tree2.root.right.right = new Node(9);
+        tree2.root.right.right.left = new Node(4);
+assertEquals("[7, 6, 5, 4, 9]",TreeIntersection.tree_intersection(tree2,tree));
     }
 }
