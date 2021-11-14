@@ -11,6 +11,7 @@ public class Graph<T> {
         this.adjVertices = adjVertices;
     }
 
+
     public Graph() {
 
     }
@@ -67,7 +68,27 @@ public class Graph<T> {
     public List<Vertix<T>> getAdjVertices(String label) {
         return adjVertices.get(new Vertix(label));
     }
+    public List<Vertix<T>> breadthFirst(T data){
+        Vertix<T>node=new Vertix<>(data);
+        if(node.label==null)return null;
+        List<Vertix<T>> nodes=new ArrayList<>();
+        Queue<T> breadth=new LinkedList<>();
+        Set<Vertix<T>> visited= new HashSet<>();
 
+        breadth.add((T) node);
+        visited.add(node);
+        while (!breadth.isEmpty()){
+            Vertix<T> front= (Vertix<T>) breadth.poll();
+            nodes.add(front);
+            for (Vertix<T> neighbor:getAdjVertices(front.getLabel().toString())){
+                if(!visited.contains(neighbor)){
+                    visited.add(neighbor);
+                    breadth.add((T) neighbor);
+                }
+            }
+        }
+        return nodes;
+    }
     @Override
     public String toString() {
         return "Graph{" +

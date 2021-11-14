@@ -5,8 +5,6 @@ package graph;
 
 import graph.structure.Graph;
 
-import java.util.Arrays;
-
 public class Library {
     public boolean someLibraryMethod() {
         return true;
@@ -14,28 +12,26 @@ public class Library {
 
     public static void main(String[] args) {
         Graph graph = new Graph();
-        graph.addVertix("A");
-        graph.addVertix("B");
-        graph.addVertix("C");
-        graph.addVertix("D");
-        graph.addVertix("F");
-        graph.addEdge("A", "B");
-        graph.addEdge("A", "D");
-        graph.addEdge("B", "C");
-        graph.addEdge("D", "C");
-        graph.addEdge("B", "F");
-        graph.addEdge("D", "F");
+        graph.addVertix("Pa");
+
+        graph.addVertix("Mo");
+        graph.addVertix("Nab");
+        graph.addVertix("Ar");
+        graph.addVertix("Me");
+        graph.addVertix("Nar");
+
+        graph.addEdge("Pa", "Ar");
+        graph.addEdge("Ar", "Me");
+        graph.addEdge("Ar", "Mo");
+        graph.addEdge("Me", "Nar");
+
+        graph.addEdge("Me", "Nab");
+        graph.addEdge("Mo", "Me");
+        graph.addEdge("Mo", "Nab");
+
 
         graph.toString();
+        System.out.println(graph.breadthFirst("Pa"));
 
-        graph.getnodes();
-        System.out.println(graph.getnodes());
-
-        System.out.println(graph.getAdjVertices());
-        graph.getAdjVertices("A");
-        System.out.println(graph.getAdjVertices("A"));
-
-        System.out.println(Arrays.asList(graph.getAdjVertices()));
-        graph.size();
     }
 }
