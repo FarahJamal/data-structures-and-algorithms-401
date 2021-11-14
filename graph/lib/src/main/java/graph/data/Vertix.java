@@ -1,20 +1,20 @@
 package graph.data;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Vertix<T> {
-    T label;
-
+    public T label;
     public Vertix(T label) {
         this.label = label;
     }
 
+    public int x;
+    public List<Vertix> adj = new ArrayList<>();
+
     public T getLabel() {
         return label;
-    }
-
-    public void setLabel(T label) {
-        this.label = label;
     }
 
     @Override

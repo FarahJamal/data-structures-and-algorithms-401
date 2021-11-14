@@ -82,10 +82,31 @@ class GraphTest {
         assertEquals("{A=[A]}",graph.getAdjVertices().toString());
     }
 
+
+
     // An empty graph properly returns null
     @Test
     void graphIsNull() {
         Graph graph = new Graph();
         assertEquals("{}",graph.getAdjVertices().toString());
     }
+
+    // Code Challenge 36
+    //HappyPAth
+    @Test void breadthFirst(){
+        Graph graph = new Graph();
+        graph.addVertix("A");
+        graph.addVertix("B");
+        graph.addVertix("C");
+        graph.addVertix("D");
+        graph.addVertix("F");
+        graph.addEdge("A", "B");
+        graph.addEdge("A", "D");
+        graph.addEdge("B", "C");
+        graph.addEdge("D", "C");
+        graph.addEdge("B", "F");
+        graph.addEdge("D", "F");
+        assertEquals("[A, B, D, C, F]",graph.breadthFirst("A").toString());
+    }
+
 }
