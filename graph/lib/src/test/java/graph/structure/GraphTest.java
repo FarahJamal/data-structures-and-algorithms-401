@@ -2,6 +2,9 @@ package graph.structure;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GraphTest {
@@ -108,5 +111,47 @@ class GraphTest {
         graph.addEdge("D", "F");
         assertEquals("[A, B, D, C, F]",graph.breadthFirst("A").toString());
     }
+@Test
+    void businessTrip(){
+    Graph graph = new Graph();
+    graph.addVertix("Pa");
 
+    graph.addVertix("Mo");
+    graph.addVertix("Nab");
+    graph.addVertix("Ar");
+    graph.addVertix("Me");
+    graph.addVertix("Nar");
+
+    graph.addEdge("Pa", "Ar");
+    graph.addweight("Pa", "Ar",150);
+    graph.addEdge("Pa", "Me");
+    graph.addweight("Pa", "Me",82);
+    graph.addEdge("Ar", "Me");
+    graph.addweight("Ar", "Me",99);
+    graph.addEdge("Ar", "Mo");
+    graph.addweight("Ar", "Mo",42);
+    graph.addEdge("Me", "Nar");
+    graph.addweight("Me", "Nar",37);
+    graph.addEdge("Nab", "Nar");
+    graph.addweight("Nab", "Nar",250);
+    graph.addEdge("Me", "Nab");
+    graph.addweight("Me", "Nab",26);
+    graph.addEdge("Mo", "Me");
+    graph.addweight("Mo", "Me",105);
+    graph.addEdge("Mo", "Nab");
+    graph.addweight("Mo", "Nab",73);
+
+
+
+    graph.toString();
+    List newList=new ArrayList();
+    newList.add("Nab");
+    newList.add("Pa");
+    List newList2=new ArrayList();
+    newList2.add("Mo");
+    newList2.add("Me");
+    assertEquals("False, $0",graph.graphbusnisstrip(graph,newList ));
+    assertEquals("True, $105",graph.graphbusnisstrip(graph,newList2 ));
+
+}
 }
