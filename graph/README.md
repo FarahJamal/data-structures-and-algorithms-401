@@ -99,3 +99,26 @@ The Big O space is O(v), and the time is O(v) with v being the number of vertice
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](graph.jpg)
+## code-37
+# Challenge Summary
+<!-- Short summary or background information -->
+Write a function called business trip:
+Arguments: graph, array of city names
+Return: cost or null
+Determine whether the trip is possible with direct flights, and how much it would cost.
+## Challenge Description
+<!-- Description of the challenge -->
+Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+Write at least three test assertions for each method that you define.
+
+Ensure your tests are passing before you submit your solution.
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+First started out by drawing out the whiteboard before coding.
+Then I wrote out the code and tests for the challenge.
+The Big O space is O(n), and the time is O(2n).
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](trip.jpg)

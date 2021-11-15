@@ -10,19 +10,24 @@ public class Graph<T> {
     public Graph(Map<Vertix<T>, List<Vertix<T>>> adjVertices) {
         this.adjVertices = adjVertices;
     }
+    Map<Vertix<T>, Map<Vertix<T>,Integer>>  wieghtAdjVertices=new HashMap<>();
 
+    public Graph(Map<Vertix<T>, List<Vertix<T>>> adjVertices, Map<Vertix<T>, Map<Vertix<T>, Integer>> wieghtAdjVertices) {
+        this.adjVertices = adjVertices;
+        this.wieghtAdjVertices = wieghtAdjVertices;
+    }
 
     public Graph() {
 
     }
 
+    public Map<Vertix<T>, Map<Vertix<T>, Integer>> getWieghtAdjVertices() {
+        return wieghtAdjVertices;
+    }
     public Map<Vertix<T>, List<Vertix<T>>> getAdjVertices() {
         return adjVertices;
     }
 
-    public void setAdjVertices(Map<Vertix<T>, List<Vertix<T>>> adjVertices) {
-        this.adjVertices = adjVertices;
-    }
 
     public List addVertix(String label) {
         return adjVertices.putIfAbsent(new Vertix(label), new ArrayList<>());
@@ -88,6 +93,35 @@ public class Graph<T> {
             }
         }
         return nodes;
+    }
+    public void addweight(String label1, String label2,Integer weight) {
+        if(label1.equals(label2)){
+            Vertix v1 = new Vertix(label1);
+            adjVertices.get(v1).add(v1);
+        }else {
+            Vertix v1 = new Vertix(label1);
+            Vertix v2 = new Vertix(label2);
+            adjVertices.get(v1).add(v2);
+            adjVertices.get(v2).add(v1);
+            if(this.adjVertices.containsKey(v1)&&this.adjVertices.containsKey(v2)){
+                this.wieghtAdjVertices.putIfAbsent(v1, new HashMap<>());
+                this.wieghtAdjVertices.putIfAbsent(v2, new HashMap<>());
+                this.wieghtAdjVertices.get(v1).put(v2, weight);
+                this.wieghtAdjVertices.get(v2).put(v1, weight);
+
+            }
+        }
+    }
+    public String graphbusnisstrip(Graph graph,List<String> cities){
+        Integer cost=0;
+        for (int i=0;i<cities.size()-1;i++){
+            Vertix<String> source=new Vertix<>(cities.get(i));
+            Vertix<String> dest=new Vertix<>(cities.get(i+1));
+            if (((Map)graph.getWieghtAdjVertices().get(source)).get(dest)!=null){
+                cost+=((Integer)((Map)graph.getWieghtAdjVertices().get(source)).get(dest));
+            }
+        }
+        return cost > 0 ? "True, $" + cost : "False, $" + cost;
     }
     @Override
     public String toString() {
