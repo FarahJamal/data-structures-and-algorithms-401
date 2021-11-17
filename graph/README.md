@@ -122,3 +122,7 @@ The Big O space is O(n), and the time is O(2n).
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](trip.jpg)
+
+
+# code 38
+![](ch-38.jpg)

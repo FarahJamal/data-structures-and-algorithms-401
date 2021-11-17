@@ -123,6 +123,27 @@ public class Graph<T> {
         }
         return cost > 0 ? "True, $" + cost : "False, $" + cost;
     }
+    List<Vertix<T>> getNeighbors(String data) {
+        Vertix vertex = new Vertix(data);
+        return adjVertices.get(vertex);
+    }
+
+    public Set<String> depthFirst(String root) {
+        Set<String> visited = new LinkedHashSet<>();
+        Stack<String> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            String vertex = stack.pop();
+            if (!visited.contains(vertex)) {
+                visited.add(vertex);
+
+                for (Vertix v : getNeighbors(vertex)) {
+                    stack.push( v.label.toString());
+                }
+            }
+        }
+        return visited;
+    }
     @Override
     public String toString() {
         return "Graph{" +
