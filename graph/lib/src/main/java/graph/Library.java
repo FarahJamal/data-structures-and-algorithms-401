@@ -45,10 +45,12 @@ public class Library {
 
 
         graph.toString();
-        List newList=new ArrayList();
-        newList.add("Nab");
-        newList.add("Pa");
-        System.out.println(graph.graphbusnisstrip(graph,newList ));
+//        List newList=new ArrayList();
+//        newList.add("Nab");
+//        newList.add("Pa");
+        System.out.println(graph.breadthFirst("Pa"));
+
+        System.out.println(graph.depthFirst("Pa"));
 
     }
 }

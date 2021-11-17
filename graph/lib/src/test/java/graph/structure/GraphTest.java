@@ -111,6 +111,21 @@ class GraphTest {
         graph.addEdge("D", "F");
         assertEquals("[A, B, D, C, F]",graph.breadthFirst("A").toString());
     }
+    @Test void depthFirst(){
+        Graph graph = new Graph();
+        graph.addVertix("A");
+        graph.addVertix("B");
+        graph.addVertix("C");
+        graph.addVertix("D");
+        graph.addVertix("F");
+        graph.addEdge("A", "B");
+        graph.addEdge("A", "D");
+        graph.addEdge("B", "C");
+        graph.addEdge("D", "C");
+        graph.addEdge("B", "F");
+        graph.addEdge("D", "F");
+        assertEquals("[A, D, F, B, C]",graph.depthFirst("A").toString());
+    }
 @Test
     void businessTrip(){
     Graph graph = new Graph();
